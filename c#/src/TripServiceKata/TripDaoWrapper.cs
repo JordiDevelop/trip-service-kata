@@ -6,10 +6,6 @@ namespace TripServiceKata
 {
     public class TripDaoWrapper : ITripDaoWrapper
     {
-        public TripDaoWrapper()
-        {
-        }
-
         public List<Trip> FindTripsByUser(User user)
         {
             return TripDAO.FindTripsByUser(user);
